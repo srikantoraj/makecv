@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="css/style.css" />
+    
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+      integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body style="width:75%;margin:20px auto;" contenteditable="true" id="pdf_body">
+
+   
+
+
+
+
+
+    <main style="border: 1px solid whitesmoke;">
+      <div class="flex items-start justify-around flex-wrap md:flex-nowrap">
+        <!-- left side starts -->
+        <div class="w-full md:w-[25rem] p-4 " >
+          <input type="file" id="filetag">
+          <img src="" id="preview"  class="w-full object-cover p-8 rounded-md" >
+          <img id="image"
+            src="images/user.png"
+            alt=""
+            class="w-full object-cover p-8 rounded-md"
+          />
+          <!-- contact section  -->
+          <div class="relative py-4 h-[5rem]">
+            <div
+              class="w-full h-[.3rem] bg-gray-500 absolute top-[50%] left-[0%]"
+            ></div>
+            <h1
+              class="w-[10rem] absolute left-[50%] top-[50%] -translate-y-[50%] -translate-x-[50%] bg-white text-center text-2xl text-[#333]"
+            >
+              CONTACT
+            </h1>
+          </div>
+          <!-- contact section starts  -->
+          <div>
+            <p class="text-gray-500 text-lg my-2 border-b pb-1">
+              <i class="fas fa-phone mr-4"></i> 222 333 444 555
+            </p>
+            <p class="text-gray-500 text-lg my-2 border-b pb-1">
+              <i class="fa-regular fa-envelope mr-4"></i> arieta.emily@email.com
+            </p>
+            <p class="text-gray-500 text-lg my-2 border-b pb-1">
+              <i class="fa-light fa-location-dot mr-4"></i> San Francisco,
+              California
+            </p>
+          </div>
+          <!-- contact section ends  -->
+          <!-- education and skill section starts  -->
+          <div class="border-4 border-gray-800 my-2 mt-8">
+            <div class="relative py-4">
+              <h1
+                class="w-[10rem] absolute left-[50%] font-semibold -top-[7%] -translate-x-[50%] bg-white text-center text-2xl text-[#333]"
+              >
+                EDUCATION
+              </h1>
+              <div class="mt-8">
+                <p class="font-semibold text-center">2001-2007</p>
+                <p class="text-gray-400 text-center">Master Degree</p>
+                <p class="text-center">Comunication</p>
+                <p class="font-semibold text-center">Zurich University</p>
+              </div>
+              <div class="mt-8 text-center">
+                <p class="font-semibold">2007-2010</p>
+                <p class="text-gray-400">Bachelor Degree</p>
+                <p>Media and Comunication</p>
+                <p class="font-semibold">Zurich University</p>
+              </div>
+            </div>
+            <div class="bg-gray-800 pb-4">
+              <div class="relative py-0 h-[5rem]">
+                <div
+                  class="w-full h-[.3rem] bg-white absolute top-[50%] left-[0%]"
+                ></div>
+                <h1
+                  class="w-[10rem] absolute left-[50%] top-[50%] -translate-y-[50%] -translate-x-[50%] bg-gray-800 text-center text-2xl text-white"
+                >
+                  SOFTWARE
+                </h1>
+              </div>
+              <div class="flex items-center justify-between my-2">
+                <div
+                  class="px-4 py-2 rounded-md bg-white text-gray-800 font-semibold"
+                >
+                  Ai
+                </div>
+                <div class="relative bg-gray-500 w-[25rem] h-1">
+                  <div
+                    class="absolute top-0 left-0 w-[25%] h-full bg-white"
+                  ></div>
+                  <div
+                    class="w-4 h-4 rounded-full bg-gray-800 border-4 border-white absolute top-[-130%] left-[25%]"
+                  ></div>
+                </div>
+              </div>
+              <div class="flex items-center justify-around my-2">
+                <div
+                  class="px-4 py-2 rounded-md bg-white text-gray-800 font-semibold"
+                >
+                  Ps
+                </div>
+                <div class="relative bg-gray-500 w-[25rem] h-1">
+                  <div
+                    class="absolute top-0 left-0 w-[50%] h-full bg-white"
+                  ></div>
+                  <div
+                    class="w-4 h-4 rounded-full bg-gray-800 border-4 border-white absolute top-[-130%] left-[50%]"
+                  ></div>
+                </div>
+              </div>
+              <div class="flex items-center justify-around my-2">
+                <div
+                  class="px-4 py-2 rounded-md bg-white text-gray-800 font-semibold"
+                >
+                  Id
+                </div>
+                <div class="relative bg-gray-500 w-[25rem] h-1">
+                  <div
+                    class="absolute top-0 left-0 w-[75%] h-full bg-white"
+                  ></div>
+                  <div
+                    class="w-4 h-4 rounded-full bg-gray-800 border-4 border-white absolute top-[-130%] left-[75%]"
+                  ></div>
+                </div>
+              </div>
+              <div class="flex items-center justify-around my-2 mb-0">
+                <div
+                  class="px-4 py-2 rounded-md bg-white text-gray-800 font-semibold"
+                >
+                  Lr
+                </div>
+                <div class="relative bg-gray-500 w-[25rem] h-1">
+                  <div
+                    class="absolute top-0 left-0 w-[90%] h-full bg-white"
+                  ></div>
+                  <div
+                    class="w-4 h-4 rounded-full bg-gray-800 border-4 border-white absolute top-[-130%] left-[90%]"
+                  ></div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- education and skill section ends  -->
+          <!-- hobbies section starts  -->
+          <div class="relative py-0 h-[5rem]">
+            <div
+              class="w-full h-[.3rem] bg-gray-500 absolute top-[50%] left-[0%]"
+            ></div>
+            <h1
+              class="w-[10rem] font-semibold absolute left-[50%] top-[50%] -translate-y-[50%] -translate-x-[50%] bg-white text-center text-2xl text-[#333]"
+            >
+              HOBBIES
+            </h1>
+          </div>
+          <div class="text-center text-[#333] font-semibold">
+            <p class="border-b-2 border-gray-400 pb-1 my-2">CYCLING</p>
+            <p class="border-b-2 border-gray-400 pb-1 my-2">PHOTGRAPHY</p>
+            <p class="border-b-2 border-gray-400 pb-1 my-2">READING BOOK</p>
+            <p class="border-b-2 border-gray-400 pb-1 my-2">BASKETBALL</p>
+            <p class="border-b-2 border-gray-400 pb-1 my-2">MUSIC</p>
+          </div>
+          <!-- hobbies section ends  -->
+        </div>
+        <!-- left side ends -->
+        <!-- right side starts  -->
+        <div class="w-full md:w-[70rem] p-4">
+          <h1 class="text-center text-4xl font-bold">ARIETA EMILY</h1>
+          <h3 class="text-gray-500 text-xl text-center my-2">
+            WEB DESIGNER & DEVELOPER
+          </h3>
+          <!-- about sectiuon  -->
+          <div class="">
+            <h3 class="font-bold text-xl mt-8 pb-4 border-b-2">
+              <i class="fa fa-user mr-4" aria-hidden="true"></i>ABOUT ME
+            </h3>
+            <p class="ml-0 md:ml-12 text-justify text-lg text-gray-500">
+              Sedut perspiatis unde omnis iste natuserror sit voluptstem accusan
+              tiumyu doloremque laudantium, tortamrame eaqueipsa quae ab
+              inventore. Veritatis quasi acrhitectop betameatea. Accusan
+              tiumyudolor emque laudantium, tortamrame eaque ipsa quae ab
+              inventore dolor emque laudantium tiumyu dolor.
+            </p>
+          </div>
+          <!-- about section ends  -->
+          <!-- experience section  -->
+          <div>
+            <h3 class="font-bold text-xl mt-8 pb-4 border-b-2">
+              <i class="fa fa-shopping-bag mr-4" aria-hidden="true"></i
+              >EXPERIENCE
+            </h3>
+            <ul style="list-style: square">
+              <li class="ml-0 md:ml-12 mt-8 style">
+                <h3 class="font-semibold text-lg">
+                  Head of Design ABC Company
+                </h3>
+                <p class="text-gray-500">2018 - 2020</p>
+                <p class="text-gray-500 my-4 text-lg">
+                  Sedut perspiatis unde omnis iste natuserror sit voluptstem
+                  accusan tiumyu doloremque laudantium, tortamrame eaqueipsa
+                  quae ab inventore. Veritatis quasi acrhitectop betameatea.
+                  Accusan tiumyudolor emque laudantium.
+                </p>
+                <ul style="list-style: circle" class="text-lg ml-0 md:ml-12">
+                  <li class="text-gray-500">
+                    Omnis iste natus error sit voluptatem erroe sit
+                  </li>
+                  <li class="text-gray-500">
+                    Totam remaperi eaque omnis iste natus error
+                  </li>
+                  <li class="text-gray-500">
+                    Iste natus error sit voluptatem erroe sit
+                  </li>
+                </ul>
+              </li>
+              <li class="ml-0 md:ml-12 mt-8 style">
+                <h3 class="font-semibold text-lg">
+                  Senior Graphic Designer DEF Company
+                </h3>
+                <p class="text-gray-500">2015 - 2018</p>
+                <p class="text-gray-500 my-4 text-lg">
+                  Sedut perspiatis unde omnis iste natuserror sit voluptstem
+                  accusan tiumyu doloremque laudantium, tortamrame eaqueipsa
+                  quae ab inventore. Veritatis quasi acrhitectop betameatea.
+                  Accusan tiumyudolor emque laudantium.
+                </p>
+                <ul style="list-style: circle" class="text-lg ml-0 md:ml-12">
+                  <li class="text-gray-500">
+                    Omnis iste natus error sit voluptatem erroe sit
+                  </li>
+                  <li class="text-gray-500">
+                    Totam remaperi eaque omnis iste natus error
+                  </li>
+                  <li class="text-gray-500">
+                    Iste natus error sit voluptatem erroe sit
+                  </li>
+                </ul>
+              </li>
+              <li class="ml-0 md:ml-12 mt-8 style">
+                <h3 class="font-semibold text-lg">
+                  Junior Graphic Designer GHI Company
+                </h3>
+                <p class="text-gray-500">2012 - 2015</p>
+                <p class="text-gray-500 my-4 text-lg">
+                  Sedut perspiatis unde omnis iste natuserror sit voluptstem
+                  accusan tiumyu doloremque laudantium, tortamrame eaqueipsa
+                  quae ab inventore. Veritatis quasi acrhitectop betameatea.
+                  Accusan tiumyudolor emque laudantium.
+                </p>
+                <ul style="list-style: circle" class="text-lg ml-0 md:ml-12">
+                  <li class="text-gray-500">
+                    Omnis iste natus error sit voluptatem erroe sit
+                  </li>
+                  <li class="text-gray-500">
+                    Totam remaperi eaque omnis iste natus error
+                  </li>
+                  <li class="text-gray-500">
+                    Iste natus error sit voluptatem erroe sit
+                  </li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+          <!-- experience section  -->
+        </div>
+        <!-- rigth side ends  -->
+      </div>
+    </main>
+    <footer class="py-4 bg-gray-700 text-center">
+      <p class="text-gray-300 text-lg">
+        For more information you can check my online portfolio at
+        <a href="#" class="text-white font-bold" target="_blank"
+          >www.domain.com</a
+        >
+      </p>
+    </footer>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.8.1/html2pdf.bundle.min.js" integrity="sha512-vDKWohFHe2vkVWXHp3tKvIxxXg0pJxeid5eo+UjdjME3DBFBn2F8yWOE0XmiFcFbXxrEOR1JriWEno5Ckpn15A==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script>
+      document.body.style.zoom = "80%";
+      var fileTag = document.getElementById("filetag"),
+    preview = document.getElementById("preview");
+    document.getElementById('preview').style.display="none";
+fileTag.addEventListener("change", function() {
+  changeImage(this);
+});
+
+function changeImage(input) {
+  var reader;
+  // image
+  document.getElementById('image').style.display="none";
+  document.getElementById('preview').style.display="block";
+  document.getElementById('filetag').style.display="none";
+
+  if (input.files && input.files[0]) {
+    reader = new FileReader();
+
+    reader.onload = function(e) {
+      preview.setAttribute('src', e.target.result);
+    }
+
+    reader.readAsDataURL(input.files[0]);
+  }
+}
+
+
+
+function pdfConvertion(){
+  var pdf_content = document.getElementById("pdf_body");
+  var options = {
+      margin:       1,
+      filename:     'isolates.pdf',
+      image:        { type: 'jpeg', quality: 0.98 },
+      html2canvas:  { scale: 2 },
+      jsPDF:        { unit: 'in', format: 'letter', orientation: 'portrait' }
+    };
+    html2pdf(pdf_content, options);
+}
+    </script>
+  </body>
+</html>

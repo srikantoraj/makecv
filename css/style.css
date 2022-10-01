@@ -1,0 +1,12 @@
+/* li.style {
+  position: relative;
+}
+li.style::after {
+  content: "";
+  position: absolute;
+  left: -1.5%;
+  bottom: -19%;
+  width: 0.01rem;
+  background-color: lightgray;
+  height: 110%;
+} */
